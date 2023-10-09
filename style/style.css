@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    /* Paleta de cores */
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-pixel: 'Pixelify Sans', 'cursive';
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+main article h1 {
+    font-family: var(--fonte-pixel);
+    font-size: 2.2em;
+}
