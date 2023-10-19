@@ -94,6 +94,15 @@ div.video > iframe {
     height: 90%;
 }
 
+aside {
+    background-color: gray;
+    width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
 footer {
     background-color: gray;
     padding: 15px;

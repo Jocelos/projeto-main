@@ -40,8 +40,22 @@
         <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/mPwAJdSH3XQ?si=JiAZHGMYWjA-ER_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <aside>
-            <!-- div com o login -->
+        <aside >
+            <h1>Lorem Lorem Lorem:</h1>
+            <form action="cadastro.php" method="post" autocomplete="off">
+                <p>
+                    <label for="iusu">Usuário: </label>
+                    <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome do usuário" autocomplete="username">
+                </p>
+                <p>
+                    <label for="isen">Senha: </label>
+                    <input type="password" name="sen" id="isen" required minlength="8" size="8" placeholder="mínimo 8 letras" autocomplete="current-password">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
         </aside>
     </main>
     <footer>
