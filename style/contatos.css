@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -49,16 +48,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
-section {
+main {
     display: flex;
 }
 
-section > article > h2 {
-    margin: 20px;
+main p {
+    font-weight: bolder;
+    padding: 40px;
+    font-size: 2em;
+    color: black;
 }
 
-section > article > p {
-    margin: 20px;
+main p a {
+    text-decoration: none;
+    color: black;
+}
+
+main p a:hover {
+    text-decoration: underline;
 }
 
 footer {
