@@ -55,3 +55,23 @@ section > article > h2 {
 section > article > p {
     margin: 20px;
 }
+
+footer {
+    background-color: gray;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+
+}
